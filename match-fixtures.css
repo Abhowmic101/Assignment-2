@@ -1,0 +1,37 @@
+/*-----------------
+header section related classes
+-------------------------- */
+.header-section {}
+
+#header-title {}
+
+.header-button {}
+
+.header-img_ {}
+
+.header-info {}
+
+
+/* ------------------------
+footer section related classes
+------------------------- */
+.footer {
+    background-color: rgb(7, 7, 7);
+}
+
+.footer-text {}
+
+.footer-links {}
+
+hr {
+    border: 2px solid rgb(83, 82, 82);
+    width: 80%;
+    background-color: rgb(26, 25, 25);
+
+}
+
+.footer-link {}
+
+.social-icons {}
+
+.social-icon {}

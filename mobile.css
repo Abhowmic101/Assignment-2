@@ -1,0 +1,66 @@
+.margin-bottom {
+    margin-bottom: 150px;
+}
+
+.view-all-button {
+    display: none;
+}
+
+
+/* --------------- 
+header section related classes
+-------------------------- */
+.header-section {}
+
+#header-title {}
+
+.header-button {}
+
+.header-img_ {}
+
+.header-info {}
+
+/* ----------------
+main-section related classes
+--------------------- */
+
+.main-section {}
+
+.container {}
+
+.menu {}
+
+.menu-button {}
+
+.blogs {}
+
+.blog {}
+
+.blog-img {}
+
+.blog-button {}
+
+.blog-title {}
+
+
+/* ----------------
+view-all-button-section
+--------------------- */
+.view-all-button-section {}
+
+/* ------------------------
+footer section related classes
+------------------------- */
+.footer {}
+
+.footer-text {}
+
+.footer-links {}
+
+hr {}
+
+.footer-link {}
+
+.social-icons {}
+
+.social-icon {}
