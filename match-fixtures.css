@@ -18,16 +18,6 @@ body {
 /*-----------------
 header section related classes
 -------------------------- */
-/* .header-section {}
-
-#header-title {}
-
-.header-button {}
-
-.header-img_ {}
-
-.header-info {} */
-
 .header-section {
     display: flex;
     width: 1321px;
@@ -84,29 +74,85 @@ main-section related classes
     flex-direction: column;
 }
 
-.container {}
+.container {
+    display: flex;
+}
 
-.menu {}
+.menu {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(35, 35, 35);
+    padding: 20px;
+    width: 312px;
+    height: 312px;
+    margin-left: 90px;
+    margin-right: 25px;
+    border-radius: 15px;
 
-.menu-button {}
+}
 
-.match-fixtures {}
+.menu-button {
+    padding-left: 75px;
+    background-color: whitesmoke;
+    margin: 10px;
+    padding-bottom: 10px;
 
-.match-fixture {}
+    color: rgb(35, 35, 35);
+    font-size: 25px;
+    padding-top: 25px;
+    border-radius: 10px;
+}
 
-.match-fixture-header {}
+#All-Groups:active {
+    background-color: red;
+    color: white;
+}
 
-.match-fixture-header-img1 {}
+#Blogs:active {
+    background-color: red;
+    color: white;
+}
 
-.match-fixture-header-img2 {}
+#Upcoming-Match {
+    background-color: red;
+    color: white;
+}
 
-.match-fixture-title {}
+.match-fixtures {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-row-gap: 10px;
+    grid-column-gap: 10px; */
+    gap: 60px;
+    margin-left: 5px;
+}
 
-.match-fixture-title-part {}
+.match-fixture {
+    box-shadow: 5px 5px 5px gray;
+    padding: 40px;
+    border-radius: 10px;
+}
 
-.match-fixture-time {}
+.vs-text {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgb(42, 40, 40);
+    font-weight: bolder;
+}
 
-.match-fixture-time-part {}
+.match-fixture-header {
+    display: flex;
+}
+
+.match-fixture-title {
+    font-weight: bold;
+}
+
+.match-fixture-title-part {
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+}
 
 /* ------------------------
 footer section related classes

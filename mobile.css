@@ -1,66 +1,233 @@
-.margin-bottom {
-    margin-bottom: 150px;
-}
+@media only screen and (max-width: 600px) {
 
-.view-all-button {
-    display: none;
-}
+    /* --------------
+ common classes
+ -------------- */
+    .text-decor {
+        text-decoration: none;
+    }
+
+    .margin-bottom {
+        margin-bottom: 150px;
+    }
+
+    .button {
+        font-family: 'Roboto Mono', monospace;
+        color: white;
+    }
+
+    body {
+        font-family: 'Poppins', sans-serif;
+    }
 
 
-/* --------------- 
+    /* --------------- 
 header section related classes
 -------------------------- */
-.header-section {}
+    .header-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
+        padding-left: 200px;
+        background-color: rgb(35, 35, 35);
+        height: 100%;
+        border-radius: 30px 30px 50px 50px;
+        margin-top: 40px;
+        margin-left: 75px;
+    }
 
-#header-title {}
 
-.header-button {}
+    .header-para {
+        font-size: 20px;
+        color: lightgray;
+        margin-bottom: 20px;
+        padding: 15px;
+    }
 
-.header-img_ {}
+    #header-title {
+        color: white;
+        font-size: 30px;
+        font-weight: bolder;
+        margin-bottom: 20px;
+        word-spacing: 4px;
+    }
 
-.header-info {}
+    .header-button {
+        background-color: red;
+        padding: 10px 15px;
+        font-size: 20px;
+        margin-bottom: 20px;
 
-/* ----------------
+    }
+
+    .header-img img {
+        margin-bottom: 0px;
+    }
+
+    /* main-section related classes */
+    .menu {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        padding: 20px;
+        width: 210px;
+        height: 176px;
+        margin-left: 120px;
+        margin-right: 25px;
+    }
+
+    .menu-button {
+        padding-left: 55px;
+        background-color: whitesmoke;
+        margin: 20px;
+        padding-bottom: 10px;
+
+        color: rgb(35, 35, 35);
+        font-size: 25px;
+        padding: 25px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px gray;
+    }
+
+    .menu-button:active {
+        color: white;
+        background-color: red;
+    }
+
+    .tab-margin {
+        margin-bottom: 250px;
+        margin-top: 100px;
+    }
+
+
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        border-radius: 5px;
+        gap: 10px;
+    }
+
+    .blog {
+        display: flex;
+        flex-direction: column;
+        box-shadow: 5px 5px 5px gray;
+        margin-right: 10px;
+
+    }
+
+    .blog-img {
+        margin-bottom: 10px;
+        padding: 15px;
+        border-radius: 5px;
+    }
+
+    .blog-button {
+        width: 20%;
+        background-color: white;
+        border: 3px solid rgb(35, 35, 35);
+        border-radius: 6px;
+        color: rgb(35, 35, 35);
+        padding: 6px;
+        margin-top: 10px;
+    }
+
+    .blog-title {
+        font-weight: bolder;
+        font-size: 20px;
+    }
+
+    .time-chat {
+        display: flex;
+        margin-bottom: 15px;
+
+    }
+
+
+
+    .time {
+        display: flex;
+        margin-left: 10px;
+        margin-right: 50px;
+
+    }
+
+    .text {
+        margin-left: 10px;
+    }
+
+    .chat {
+        display: flex;
+
+    }
+
+    /* ----------------
 main-section related classes
 --------------------- */
 
-.main-section {}
-
-.container {}
-
-.menu {}
-
-.menu-button {}
-
-.blogs {}
-
-.blog {}
-
-.blog-img {}
-
-.blog-button {}
-
-.blog-title {}
-
-
-/* ----------------
+    /* ----------------
 view-all-button-section
 --------------------- */
-.view-all-button-section {}
+    .view-all-button {
+        display: none;
+    }
 
-/* ------------------------
+    /* ------------------------
 footer section related classes
 ------------------------- */
-.footer {}
+    .footer {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(35, 35, 35);
+        width: 560px;
+        height: 670px;
+    }
 
-.footer-text {}
+    .footer-text {
+        text-align: center;
+        color: white;
+        font-size: 40px;
+        font-weight: bolder;
+        padding-top: 120px;
+    }
 
-.footer-links {}
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
 
-hr {}
+    .icon-color {
+        color: lightskyblue;
+        font-size: 30px;
+        text-align: center;
+    }
 
-.footer-link {}
+    hr {
+        width: 80%;
+        border: 2px solid rgb(65, 63, 63);
+        color: rgb(65, 63, 63);
+        margin-bottom: 30px;
+        margin-top: 40px;
 
-.social-icons {}
+    }
 
-.social-icon {}
+    .footer-link {
+        padding-right: 10px;
+        color: lightgrey;
+    }
+
+    .social-icons {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+
+    .social-icon {
+        margin-right: 10px;
+        color: skyblue;
+    }
+}
+
+}
