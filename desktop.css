@@ -1,11 +1,18 @@
 /* --------------
  common classes
  -------------- */
+.text-decor {
+    text-decoration: none;
+}
+
 .margin-bottom {
     margin-bottom: 150px;
 }
 
-.button {}
+.button {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -14,15 +21,51 @@ body {
 /* --------------- 
 header section related classes
 -------------------------- */
-.header-section {}
+.header-section {
+    display: flex;
+    width: 1321px;
+    background-color: rgb(35, 35, 35);
+    height: 646px;
+    border-radius: 30px 30px 50px 50px;
+    margin-top: 40px;
+    margin-left: 75px;
+}
 
-#header-title {}
+.header-para {
+    font-size: 20px;
+    color: lightgray;
+    margin-bottom: 20px;
+    padding: 20px;
+}
 
-.header-button {}
+#header-title {
+    color: white;
+    font-size: 60px;
+    font-weight: bolder;
+    word-spacing: 4px;
+}
 
-.header-img_ {}
+.header-button {
+    background-color: red;
+    padding: 10px 15px;
+    font-size: 20px;
+}
 
-.header-info {}
+.header-img img {
+    margin-bottom: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.header-info {
+    width: 50%;
+    margin-left: 40px;
+}
+
+.icon {
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
 /* ----------------
 main-section related classes
@@ -30,13 +73,48 @@ main-section related classes
 
 .main-section {}
 
-.container {}
+.container {
+    display: flex;
+}
 
-.menu {}
+.menu {
+    display: grid;
+    flex-direction: column;
+    background-color: rgb(35, 35, 35);
+    padding: 20px;
+    width: 312px;
+    height: 312px;
 
-.menu-button {}
+}
 
-.blogs {}
+.menu-button {
+    padding-left: 75px;
+    background-color: whitesmoke;
+    margin: 10px;
+
+    color: rgb(35, 35, 35);
+    font-size: 25px;
+    padding-top: 25px;
+    border-radius: 10px;
+}
+
+#All-Groups:active {
+    background-color: red;
+}
+
+#Blogs:active {
+    background-color: red;
+}
+
+#Upcoming-Match {
+    background-color: red;
+}
+
+.blogs {
+    display: flex;
+    flex-direction: column;
+
+}
 
 .blog {}
 
@@ -50,21 +128,61 @@ main-section related classes
 /* ----------------
 view-all-button-section
 --------------------- */
-.view-all-button-section {}
+.view-all-button {
+    background-color: red;
+    padding: 15px;
+    font-size: 25px;
+    color: white;
+    margin-left: 50%;
+    margin-top: 15px;
+}
 
 /* ------------------------
 footer section related classes
 ------------------------- */
-.footer {}
+.footer {
+    background-color: rgb(35, 35, 35);
+    width: 100%;
+    height: 444px;
+}
 
-.footer-text {}
+.footer-text {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    padding-top: 120px;
+}
 
-.footer-links {}
+.footer-links {
+    text-align: center;
+}
 
-hr {}
+.icon-color {
+    color: lightskyblue;
+    font-size: 30px;
+    text-align: center;
+}
 
-.footer-link {}
+hr {
+    width: 80%;
+    border: 2px solid rgb(65, 63, 63);
+    color: rgb(65, 63, 63);
+    margin-bottom: 30px;
+    margin-top: 40px;
 
-.social-icons {}
+}
 
-.social-icon {}
+.footer-link {
+    padding-right: 10px;
+    color: lightgrey;
+}
+
+.social-icons {
+    margin-left: 700px;
+    margin-top: 30px;
+}
+
+.social-icon {
+    margin-right: 10px;
+}

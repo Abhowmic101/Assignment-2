@@ -1,7 +1,24 @@
+.text-decor {
+    text-decoration: none;
+}
+
+.button {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.margin-bottom {
+    margin-bottom: 150px;
+}
+
 /*-----------------
 header section related classes
 -------------------------- */
-.header-section {}
+/* .header-section {}
 
 #header-title {}
 
@@ -9,8 +26,87 @@ header section related classes
 
 .header-img_ {}
 
-.header-info {}
+.header-info {} */
 
+.header-section {
+    display: flex;
+    width: 1321px;
+    background-color: rgb(35, 35, 35);
+    height: 646px;
+    border-radius: 30px 30px 50px 50px;
+    margin-top: 40px;
+    margin-left: 75px;
+}
+
+.header-para {
+    font-size: 20px;
+    color: lightgray;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+#header-title {
+    color: white;
+    font-size: 60px;
+    font-weight: bolder;
+    word-spacing: 4px;
+}
+
+.header-button {
+    background-color: red;
+    padding: 10px 15px;
+    font-size: 20px;
+}
+
+.header-img img {
+    margin-bottom: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.header-info {
+    width: 50%;
+    margin-left: 40px;
+}
+
+.icon {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+/* --------------------
+main-section related classes
+-------------------- */
+.main-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {}
+
+.menu {}
+
+.menu-button {}
+
+.match-fixtures {}
+
+.match-fixture {}
+
+.match-fixture-header {}
+
+.match-fixture-header-img1 {}
+
+.match-fixture-header-img2 {}
+
+.match-fixture-title {}
+
+.match-fixture-title-part {}
+
+.match-fixture-time {}
+
+.match-fixture-time-part {}
 
 /* ------------------------
 footer section related classes
@@ -19,19 +115,49 @@ footer section related classes
     background-color: rgb(7, 7, 7);
 }
 
-.footer-text {}
+.footer {
+    background-color: rgb(35, 35, 35);
+    width: 100%;
+    height: 444px;
+}
 
-.footer-links {}
+.footer-text {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    padding-top: 120px;
+}
+
+.footer-links {
+    text-align: center;
+}
+
+.icon-color {
+    color: lightskyblue;
+    font-size: 30px;
+    text-align: center;
+}
 
 hr {
-    border: 2px solid rgb(83, 82, 82);
     width: 80%;
-    background-color: rgb(26, 25, 25);
+    border: 2px solid rgb(65, 63, 63);
+    color: rgb(65, 63, 63);
+    margin-bottom: 30px;
+    margin-top: 40px;
 
 }
 
-.footer-link {}
+.footer-link {
+    padding-right: 10px;
+    color: lightgrey;
+}
 
-.social-icons {}
+.social-icons {
+    margin-left: 700px;
+    margin-top: 30px;
+}
 
-.social-icon {}
+.social-icon {
+    margin-right: 10px;
+}
